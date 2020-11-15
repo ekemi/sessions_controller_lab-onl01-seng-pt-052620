@@ -12,6 +12,6 @@ end
 def destroy 
   if session[:name]
     session.delete :name
-  endredirect_to '/'
+redirect_to '/'
 end
 end
